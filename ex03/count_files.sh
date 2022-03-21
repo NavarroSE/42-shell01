@@ -1,1 +1,1 @@
-find . | wc -l | cut -c 7-
+find . | wc -l | tr -d " "
